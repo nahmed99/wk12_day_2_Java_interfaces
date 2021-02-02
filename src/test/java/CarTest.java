@@ -15,4 +15,5 @@ public class CarTest {
         // Then we should see some converted string
         assertEquals("Car data", message);
     }
+
 }

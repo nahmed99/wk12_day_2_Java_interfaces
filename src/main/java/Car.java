@@ -1,4 +1,4 @@
-public class Car extends Vehicle {
+public class Car implements Convert {
 
     private String name;
     private int age;
