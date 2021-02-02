@@ -22,4 +22,11 @@ public class CarTest {
         String returned = car.move(30);
         assertEquals("Moved 30", returned);
     }
+
+    @Test
+    public void canStartCar() {
+        Car car = new Car("Ford", 3);
+        String returned = car.start();
+        assertEquals("I have started, so I will finish!", returned);
+    }
 }
