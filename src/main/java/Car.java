@@ -1,4 +1,4 @@
-public class Car implements Convert {
+public class Car implements Convert, IMove {
 
     private String name;
     private int age;
@@ -12,4 +12,7 @@ public class Car implements Convert {
         return "Car data";
     }
 
+    public String move(int distance) {
+        return "Moved " + distance;
+    }
 }

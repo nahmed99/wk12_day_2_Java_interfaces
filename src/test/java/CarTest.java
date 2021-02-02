@@ -16,4 +16,10 @@ public class CarTest {
         assertEquals("Car data", message);
     }
 
+    @Test
+    public void canMoveCar() {
+        Car car = new Car("Ford", 3);
+        String returned = car.move(30);
+        assertEquals("Moved 30", returned);
+    }
 }
